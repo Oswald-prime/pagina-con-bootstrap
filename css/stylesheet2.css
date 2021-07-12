@@ -1,0 +1,38 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar{ 
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover{ color: black;
+}
+
+.logobrand{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.nav-toggler{ font-size: 40px;
+}
+.nav-toggler:focus{outline: none;}
+
+#hero{
+    background-image: url('/img/graffiti.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: black;
+}
+
+.content-center{max-width: 800px;
+margin: 0 auto 60px auto;
+text-align: center;
+}
